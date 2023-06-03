@@ -1,9 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 #img-div {
-    text-align: center;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 2rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#title {
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3rem;
+  padding: 3rem;
+  font-weight: 800;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+#tribute-info h3 {
+  padding: 2rem 1rem;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 2rem;
+}
+
+li {
+  padding: 1rem;
+  line-height: 30px;
+}
+
+#info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  width: 100%;
+  flex-direction: column;
+}
+
+#quote {
+  width: 40%;
+  line-height: 30px;
+  padding-top: 2rem;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#quote span {
+  display: block;
+  text-align: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tribute-link-p {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+#tribute-link a {
+  color: rgb(59, 113,
+      115);
+}
+
+@media (max-width:500px) {
+  #tribute-info {
+    width: 80%;
   }
-  
-  #image {
-    max-width: 100%;
-    height: auto;
-    display: block;
+
+  #quote {
+    width: 80%;
   }
+
+  #title {
+    font-size: 1.5rem;
+  }
+}
